@@ -1,0 +1,21 @@
+{
+  "name": "molveno",
+  "version": "1.0.0",
+  "description": "hotel molveno lake resort",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "hotel",
+    "test",
+    "molveno",
+    "lake",
+    "resort"
+  ],
+  "author": "jochem mulder",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
