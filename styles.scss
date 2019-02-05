@@ -1,9 +1,15 @@
+$primary-color: orange;
+$secondary-color: green;
+$tertiary-color: blue;
+$primary-font-color: black;
+$border-radius; 4px;
+
 body {
     .menu{ 
         height: 25px;
     }
     nav{
-        background-color: green;
+        background-color: $tertiary-color;
         padding: 10px;
         border-radius: 4px;
 
@@ -14,5 +20,5 @@ body {
         background-color: green;
         padding: 10px;
         border-radius: 4px;
-    }
+         }
 }
