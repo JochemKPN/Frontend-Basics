@@ -17,6 +17,9 @@
   "author": "jochem mulder",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "bootstrap": "^4.2.1",
+    "jquery": "^1.9.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.6"
   }
 }
