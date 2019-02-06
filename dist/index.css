@@ -6926,6 +6926,6 @@ a.text-dark:hover, a.text-dark:focus {
   height: 200px;
   border: 2px solid orange; }
 
-.carousel-inner > .item > a > img {
-  width: 70%;
-  margin: auto; }
+.carousel-inner {
+  width: 50%;
+  margin: 0 auto; }

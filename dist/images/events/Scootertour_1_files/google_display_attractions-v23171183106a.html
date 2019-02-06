@@ -1,0 +1,94 @@
+
+<!-- saved from url=(2793)https://static.tacdn.com/static/page_moniker/google_display_attractions-v23171183106a.html#pixelType=PAGEVIEW&curLocId=11455387&geoId=187895&attractionProductCode=7219P1&attractionProductPrice=120.04&tadomain=tripadvisor.com&reqUnique=c3e59c37dacb987fcbb754e267c79698655ef4cf&userUnique=3b0d34340ae1600a8b7491246cd8571461c5ad32&fbUserUnique=f695fa832cc9bb4e9d898b09c8d99da1ce61dae073abcaa4dbb54c5e2ea6c191&locale=en_US&countryID=188553&seqId=11&currency=EUR&regionName=&cityName=Florence&stateOrCityName=Florence&countryName=Italy&destinationName=Tuscany%20Vespa%20Tour&locationType=Activity&stDest=Florence%2CItaly&geoName=Florence&geoParentId=2043770&geoParentName=Province%20of%20Florence&productIds=[%22187895enUS%22]&productIdsShort=187895enUS&device=Desktop&fbDevice=1&userGeo=188553&siteType=d&trueServlet=AttractionProductDetail&fbTrueServlet=AF&fbRetargetingType=2&servlet=AttractionProductDetail&geoFeedBucket=medium&serverName=www.tripadvisor.com&puid=XFrufAokHXkAAdjReT8AAAC9&isMobileDevice=n&rtPath=www.tamgrt.com/RT&random=333370092&taSplit=1&mcid=42278&fbChannel=-1&isOrganic=false&criteoDedup=0&tasource=OTH&geo=187895&isClickoutYN=no&isLoggedIn=N&securelyLoggedIn=N&stuid=NY1QkB0y0N4TaCwTSZa2pGKZfslWO27Vjgdq6cLwEWv4sPiKr4FRhK2absmvrCl4&countryAlpha2=US&criteoPartnerId=4653&criteoAttractionPartnerId=26270&criteoHotelAcct=%5Ban%3Dweb-hotels-tripadvisor.com%26cn%3Dus%26ln%3Den%2Can%3Dweb-hotels-0-tripadvisor.com%26cn%3Dus%26ln%3Den%2Can%3Dweb-hotels-1-tripadvisor.com%26cn%3Dus%26ln%3Den%2Can%3Dweb-hotels-2-tripadvisor.com%26cn%3Dus%26ln%3Den%5D&flight_originid=&flight_destid=&flight_startdate=2019-02-20&flight_enddate=2019-02-27&dynx_itemid=null_null_20190220_20190227&flight_num_tix=1&numSeniors=0&attractionShoppingCartTotalPriceUSD=0.00&isAttractionProdDetailPages=true&facebookuvm_v2UlbScore=0.5354346075923146&facebookuvm_v2UlbBucket=17&fbUlbMultiplier=0.16393494440004827&facebookUlbScore=0.47137658565510004&facebookUlbBucket=100&googleExperimentSegment=test&googleUlbScore=0.341421446&googleUlbBucket=3&googleuvm_v2UlbBucket=3&googleuvm_v2UlbScore=0.246534629&UVMBESTSCORE=0.01&UVMSCOPE=UVM_V2&UVMSAVEABLE=0&googleuvm_v2.1UlbBucket=1&googleuvm_v2.1UlbScore=0.00645319096318&googleuvm_v2.1UlbBucketParamName=uvm_display_desktop_bucket&googleuvm_complexUlbBucket=1&googleuvm_complexUlbScore=0.025353312492370605&criteoUlbScore=0.00645319096318&criteoUlbBucket=1&criteoUlbScoreCurrent=0.00645319096318&criteoUlbBucketCurrent=1&DBISCORE=0.030010153485910875&DBIFLAG=false&mofSlice=18&mofLastUpdated=20190206&smarterTravelPixelID=gqLWKHSnTxes4YmmtgWkqA&smarterTravelPixelDomain=p.smartertravel.com&isSTConversion=false&googleCRMId=e804502d27793aa2c54cc6b6514e13088247bc2b&rexSplit=t&NanigansTestSegment=0&is_default_dates=No&pixelName=google_display_pixel_attractions -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+</head>
+<body>
+<script type="text/javascript">
+  var query_string = {};
+  var query = window.location.hash.substring(1);
+  var vars = query.split("&");
+  for (var i = 0; i < vars.length; i++) {
+    var pair = vars[i].split("=");
+    // If first entry with this name
+    if (typeof query_string[pair[0]] === "undefined") {
+      query_string[pair[0]] = pair[1];
+      // If second entry with this name
+    } else if (typeof query_string[pair[0]] === "string") {
+      var arr = [ query_string[pair[0]], pair[1] ];
+      query_string[pair[0]] = arr;
+      // If third or later entry with this name
+    } else {
+      query_string[pair[0]].push(pair[1]);
+    }
+  }
+
+  var google_conversion_language = "en";
+  var google_conversion_format = "3";
+  var google_conversion_color = "666666";
+  var google_conversion_value = 0;
+  var device = query_string["device"];
+  var isMobile = device !== "Desktop" && device !== "Tablet";
+  var google_dynx_itemid = [];
+  var isAttractionProdDetailPages = query_string["isAttractionProdDetailPages"] == "true";
+  var isAttractionListingPages = query_string["isAttractionListingPages"] == "true";
+  var productCode = query_string["attractionProductCode"];
+  var productCount = query_string["attractionActualProdCount"] || query_string["attractionRelatedProdCount"];
+  var servlet = query_string["servlet"];
+  var attractionProductCodes = query_string["attractionProductCodes"];
+  var sameFilterAttractionProductCodes = query_string["sameFilterAttractionProductCodes"];
+
+  if (isAttractionProdDetailPages && productCode) {
+    google_dynx_itemid.push(productCode);
+  }
+  else if (isAttractionListingPages) {
+    if(sameFilterAttractionProductCodes && sameFilterAttractionProductCodes.length > 0)
+    {
+        google_dynx_itemid = sameFilterAttractionProductCodes.split(",");
+    }
+    else if (productCount) {
+        for (var i = 1; i <= productCount; i++) {
+            var product = query_string["attraction" + i];
+            if (product) {
+                google_dynx_itemid.push(product);
+            }
+        }
+    }
+  }
+  else if (servlet === "ShoppingCart" && attractionProductCodes) {
+    google_dynx_itemid = attractionProductCodes.split(",");
+  }
+  else {
+    google_dynx_itemid.push("");
+  }
+  var param_servlet = (query_string["pixelType"] === "CLICKOUT" ?  ((isMobile ? "Mobile" : "") + "MetaConversion") : query_string["servlet"]);
+  var param_mobile = isMobile ? "y" : "n";
+  var google_tag_params = {
+    POS: query_string["locale"],
+    destcity: query_string["geoName"],
+    GeoId: query_string["geoId"],
+    PropId: query_string["propId"] || query_string["geoMostPop"] || query_string["loc1"],
+    mobile: param_mobile,
+    servlet: param_servlet,
+    travel_destid: query_string["geoId"],
+    dynx_itemid: google_dynx_itemid,
+    actualProductCount: query_string["attractionActualProdCount"] || 0,
+    split: query_string["rexSplit"]
+  };
+
+  /* <![CDATA[ */
+  var google_conversion_id = 852777410;
+  var google_custom_params = window.google_tag_params;
+  var google_user_id = query_string["googleCRMId"];
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<script type="text/javascript" src="./f.txt">
+</script><script src="./f(1).txt"></script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/852777410/?guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+
+</body></html>
