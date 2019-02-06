@@ -6,6 +6,20 @@ body nav {
   padding: 10px;
   border-radius: 4px; }
 
+body nav {
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */ }
+  body nav a:link {
+    color: green; }
+  body nav a:visited {
+    color: green; }
+  body nav a:hover {
+    color: red; }
+  body nav a:active {
+    color: yellow; }
+
 body footer {
   background-color: green;
   padding: 10px;

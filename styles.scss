@@ -12,8 +12,27 @@ body {
         background-color: $secondary-color;
         padding: 10px;
         border-radius: 4px;
-
-    }
+        }
+        nav{
+        /* unvisited link */
+        a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }}
     main{
     }
     footer{
