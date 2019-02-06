@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "sass": "node-sass src/styles/iindex.scss -wo ./dist"
+    "sass": "node-sass src/styles/index.scss -wo ./dist"
   },
   "keywords": [
     "hotel",
