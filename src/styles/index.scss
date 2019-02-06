@@ -1,3 +1,8 @@
 @import "variables.scss";
 @import "./node_modules/bootstrap/scss/bootstrap";
 
+.block-primary {
+    background: green;
+    height: 200px;
+    border: 2px solid orange
+}
