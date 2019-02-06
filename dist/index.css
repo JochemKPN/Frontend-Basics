@@ -1,0 +1,36 @@
+body {
+  background-image: url("logo-origineel.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  body .menu {
+    height: 25px; }
+  body nav {
+    background-color: green;
+    padding: 10px;
+    border-radius: 4px; }
+  body nav {
+    /* unvisited link */
+    /* visited link */
+    /* mouse over link */
+    /* selected link */ }
+    body nav a:link {
+      color: aquamarine; }
+    body nav a:visited {
+      color: purple; }
+    body nav a:hover {
+      color: red; }
+    body nav a:active {
+      color: yellow; }
+  body main {
+    background-color: #999999; }
+  body .dynamic-color {
+    background: transparent;
+    transition: 0.3s all ease-out;
+    transform: scale(1); }
+    body .dynamic-color:hover {
+      background: green;
+      transform: scale 1; }
+  body footer {
+    background-color: green;
+    padding: 10px;
+    border-radius: 4px; }
